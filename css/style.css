@@ -171,7 +171,7 @@ header > div {
  background-color:rgba(255, 255, 255, 0.05);
  width: 1px;
  height: 100vh;
- z-index: 2;
+ z-index: 4;
  position: absolute;
  top: 0;
 }
@@ -183,6 +183,7 @@ header > div {
 .vertical-line_center {
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
 }
 
 .vertical-line_right {
